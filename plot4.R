@@ -35,6 +35,7 @@
 
 ## Load packages
 library(data.table) # fread
+library(plyr)       # mutate
 
 ## Setup data directory
 if (!file.exists("./data")) { dir.create("./data") }
